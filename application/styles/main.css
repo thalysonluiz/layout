@@ -1,0 +1,529 @@
+body{
+	padding-bottom: 40px; /*Espaçamento para o friend list button*/
+}
+
+.container-fluid {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.table-centered td {
+	vertical-align: middle !important;
+}
+
+.icon {
+	padding-right: 0.5em;
+}
+
+.color-yellow {
+	color: yellow;
+}
+
+.color-green {
+  color: green;
+}
+
+.font-bold {
+	font-weight: bold;
+}
+
+/* sign up modal style*/
+.signup-modal-content{
+	height: 430px;
+}
+
+/* friend-list style*/
+.friend-list{
+	position: fixed;
+	bottom: 0;
+	right: 15px;
+	list-style: none;
+	z-index: 10;
+}
+.friend-list-button{
+	width: 250px;
+	border-radius: 4px 4px 0 0;
+}
+.friend-list-dropdown{
+	bottom: 100%;
+	top: auto;
+	left: auto;
+	right: 0;
+
+	width: 250px;
+	margin: 0 0;
+	padding: 0 0;
+}
+
+.no-padding-right{
+	padding-right: 0;
+}
+
+.no-padding-left {
+	padding-left: 0;
+}
+.no-margin{
+	margin: 0 0;
+}
+
+.centralize-margin {
+	margin-top: 10%;
+}
+.color-green {
+	color: #00AA00;
+}
+
+/* aparencia do formulario da pagina de registro*/
+.signup-page-button{
+	width: 100%;
+}
+.signup-page-form-hero{
+	padding: 20px 15px;
+}
+
+/* aparencia do dropdown de login */
+.login-dropdown {
+	width: 250px;
+}
+.login-popup {
+	border: 0;
+}
+.login-popup legend {
+	margin: .2em 0 .3em 0;
+}
+.login-popup input {
+	background: rgba(0, 0, 0, .15);
+	border: none;
+	color: #FFF;
+	margin-bottom: .6em;
+}
+
+/* aparencia formulario do editProfile*/
+.form-profile{
+	border: 0;
+}
+.form-profile fieldset{
+	border: 0;
+}
+.form-profile button{
+	width: 100%;
+}
+.form-profile legend {
+	margin: .2em 0 .3em 0;
+}
+.form-profile input {
+	background: rgba(0, 0, 0, .15);
+	border: none;
+	color: #FFF;
+	margin-bottom: .6em;
+}
+
+.login-popup .form-group {
+	margin-bottom: 0;
+}
+
+.search-field {
+	padding-bottom: 1em;
+}
+
+.game-actions {
+	padding: 0em;
+	padding-top: 0.5em;
+}
+
+ul.game-actions {
+	list-style: none;
+}
+
+ul.game-actions li {
+	display: inline-block;
+}
+
+.game-list .game-text{
+	height: 112px;
+	padding-left: 1em;
+	padding-top: 1em;
+}
+
+.game-icon{
+	width: 84px;
+	height: 84px;
+	float: left;
+	border: 1px solid #000000;
+	padding: 0;
+	margin-right: 1em;
+	margin-left: 1em;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 5px;
+}
+
+.game-list .icon{
+	margin-left: 0.6em;
+	margin-right: -0.2em;
+}
+
+.game-list-title{
+	display: inline;
+	font-size: 1.2em;
+	margin-right: 0.8em;
+	font-weight: bold;
+}
+
+.game-list-stars{
+	display: inline;
+	color: #837f7f;
+}
+
+.game-list-stars-dourada{
+	display: inline;
+	color: #3E444C;
+	padding: 0.6em;
+}
+
+.game-list .far-left{
+	margin-left: 0;
+}
+
+.games-panel{
+	line-height: 1.4em;
+}
+
+.coins-panel{
+	line-height: 1.4em;
+}
+
+.achievements-list {
+	margin-top: 2em;
+}
+
+.achievements-list .progress {
+	position: relative;
+}
+
+.achievements-list .progress span {
+	position: absolute;
+	display: block;
+	width: 100%;
+	color: white;
+	line-height: 20px;
+	padding-left: 1em;
+}
+
+.achievement {
+	margin-top: 1em;
+	height: 66px !important;
+	padding: 0;
+}
+
+.achievement.done {
+	background: #62C462;
+}
+
+.achievement.not-done {
+	background: #EE5F5B;
+}
+
+.achievement .panel-body {
+	margin: 0;
+	padding: 0;
+}
+
+.achievement .achievement-text {
+	margin-left: 78px;
+	text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+	color: white;
+}
+
+.find-users-panel {
+	margin-top: 3%;
+}
+
+.achievement h4 {
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+.achievement p {
+	margin-top: 0;
+}
+
+.achievement img {
+	width: 64px;
+	height: 64px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	border-radius: 5px 0 0 5px;
+}
+
+.game-dash {
+	margin-bottom: 2em;
+}
+
+.game-dash p {
+	margin: 0;
+	padding: 0;
+}
+
+.game-dash img {
+	display: inline;
+	float: left;
+	line-height: 62px;
+	margin-right: 1em;
+}
+
+.game-dash .actions {
+	margin-left: 46px;
+}
+
+.game-dash .actions a {
+	display: inline-block;
+	padding-right: 1em;
+}
+
+/* tabela de itens */
+#items-table .item {
+	padding: 1em 0;
+	vertical-align: middle;
+}
+
+.leftcol {
+	margin-right: 30px;
+	width: 650px;
+}
+
+.rightcol {
+	width: 320px;
+}
+
+.game-thumbnail{
+	width: 42px;
+	height: 42px;
+	padding: 0;
+	margin-right: 1em;
+}
+
+.game-heading {
+	line-height: 42px;
+}
+
+.game-image{
+	width: 320px;
+	height: 130px;
+	float: left;
+	padding: 0;
+}
+
+.game-preview{
+	width: 650px;
+	height: 400px;
+	float: left;
+	padding: 0;
+}
+
+p.game-description{
+	font-size: 12px;
+	margin: auto;
+
+}
+
+.left-block{
+	margin-top: 20px;
+	width: 650px;
+}
+
+.right-block{
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 320px;
+}
+
+.game-inline{
+	display: inline;
+	padding-top:1em;
+}
+
+.panel-developers {
+  margin-top: 1em;
+}
+
+span.developers {
+  float: right;
+}
+
+span.copyright {
+  font-size: 12px;
+}
+
+span.legal {
+  font-size: 12px;
+  float: right;
+}
+
+.price{
+	color: #0ba854;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#selling-items-table td{
+  vertical-align: middle;
+  text-align: center;
+}
+.game-requirements p{
+	font-size: 12px;
+}
+
+.game-review{
+	font-size: 14px;
+}
+
+blockquote.game-review{
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-right: 0px;
+}
+
+.col-centered{
+	float: none;
+	margin: 0 auto;
+}
+
+.login-popup .btn-success {
+	background-image: linear-gradient(#2f7d2f, #379337 40%, #3da23d);
+	background-repeat: no-repeat;
+}
+
+#items-table .item > div {
+	cursor: pointer;
+}
+
+.imgGuide {
+	float: left;
+	margin: 0 20px 10px 0;
+	width: 100px;
+	height: 100px;
+}
+
+.edit-input {
+	width: 80px;
+	text-align: center;
+	margin: 0 auto;
+}
+#topgames td {
+	vertical-align: middle;
+}
+
+#topgames td img {
+	margin-right: 1em;
+}
+
+
+.title-add-coins{
+ text-align: center;
+}
+
+.add-coins-list-title{
+	display: inline;
+	font-size: 1.8em;
+	margin-right: 0.8em;
+	font-weight: bold;
+}
+.add-coins-button{
+	display: inline;
+	float: right;
+	vertical-align: ;
+}
+
+#list-coin{
+  height: 65px;
+}
+
+#val-heading {
+  line-height: 45px;
+}
+
+.list-group-item-heading {
+  vertical-align: center;
+}
+
+#min-val{
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: -0.3em;
+}
+
+#well-coin{
+  height: 38px;
+  margin-top: 0.25em;
+  line-height: 20px;
+}
+
+#tabela-add-coin{
+  border-radius: 5px;
+}
+
+#form-payment legend {
+  text-align: center;
+}
+#items-trade td{
+  vertical-align: middle;
+  text-align: center;
+}
+
+.store-sale-item {
+	padding: 1em;
+}
+
+.store-sale-item h1 {
+	margin-top: 0;
+}
+
+.store-sale-item .btn-white {
+	border-color: white;
+}
+
+#modal-details .quantity {
+	display: inline-block;
+	width: 120px;
+}
+
+
+
+.logo_game{
+  text-align: center;
+	width: 10em;
+}
+
+
+
+.panel-heading a {
+    
+ padding-left: 50px;    
+}
+
+
+.col-md-3 h1 p{
+    
+ padding-left: 10px;   
+}
+
+.img-responsive-about {
+   max-width: 100%;
+   border: 1px solid #000000;
+   border-radius: 5px;
+}
+
+.col-xs-12 h1 {
+    
+ margin-top: 0;
+}
+
+
+
+
+
+
+
+

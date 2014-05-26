@@ -1,0 +1,434 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 warn package.json istim-layout@1.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/home/thalyson/git/layout',
+6 verbose install   [ 'gulp',
+6 verbose install     'gulp-changed',
+6 verbose install     'gulp-coffee',
+6 verbose install     'gulp-imagemin',
+6 verbose install     'gulp-minify-css',
+6 verbose install     'gulp-plumber',
+6 verbose install     'gulp-sass',
+6 verbose install     'gulp-serve',
+6 verbose install     'gulp-util',
+6 verbose install     'gulp-watch' ] ]
+7 info preinstall istim-layout@1.0.0
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'gulp@3.5.6', null ]
+10 verbose cache add name=undefined spec="gulp@3.5.6" args=["gulp@3.5.6",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'gulp@3.5.6',
+11 verbose parsed url   path: 'gulp@3.5.6',
+11 verbose parsed url   href: 'gulp@3.5.6' }
+12 verbose cache add name="gulp" spec="3.5.6" args=["gulp","3.5.6"]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: '3.5.6',
+13 verbose parsed url   path: '3.5.6',
+13 verbose parsed url   href: '3.5.6' }
+14 verbose addNamed [ 'gulp', '3.5.6' ]
+15 verbose addNamed [ '3.5.6', '3.5.6' ]
+16 verbose cache add [ 'gulp-changed@0.2.1', null ]
+17 verbose cache add name=undefined spec="gulp-changed@0.2.1" args=["gulp-changed@0.2.1",null]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'gulp-changed@0.2.1',
+18 verbose parsed url   path: 'gulp-changed@0.2.1',
+18 verbose parsed url   href: 'gulp-changed@0.2.1' }
+19 verbose cache add name="gulp-changed" spec="0.2.1" args=["gulp-changed","0.2.1"]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: '0.2.1',
+20 verbose parsed url   path: '0.2.1',
+20 verbose parsed url   href: '0.2.1' }
+21 verbose addNamed [ 'gulp-changed', '0.2.1' ]
+22 verbose addNamed [ '0.2.1', '0.2.1' ]
+23 silly lockFile cb982ef7-gulp-3-5-6 gulp@3.5.6
+24 verbose lock gulp@3.5.6 /home/thalyson/.npm/cb982ef7-gulp-3-5-6.lock
+25 silly lockFile d2fbc385-gulp-changed-0-2-1 gulp-changed@0.2.1
+26 verbose lock gulp-changed@0.2.1 /home/thalyson/.npm/d2fbc385-gulp-changed-0-2-1.lock
+27 verbose cache add [ 'gulp-minify-css@0.3.0', null ]
+28 verbose cache add name=undefined spec="gulp-minify-css@0.3.0" args=["gulp-minify-css@0.3.0",null]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: 'gulp-minify-css@0.3.0',
+29 verbose parsed url   path: 'gulp-minify-css@0.3.0',
+29 verbose parsed url   href: 'gulp-minify-css@0.3.0' }
+30 verbose cache add name="gulp-minify-css" spec="0.3.0" args=["gulp-minify-css","0.3.0"]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: '0.3.0',
+31 verbose parsed url   path: '0.3.0',
+31 verbose parsed url   href: '0.3.0' }
+32 verbose addNamed [ 'gulp-minify-css', '0.3.0' ]
+33 verbose addNamed [ '0.3.0', '0.3.0' ]
+34 silly lockFile 86c2e8f3-gulp-minify-css-0-3-0 gulp-minify-css@0.3.0
+35 verbose lock gulp-minify-css@0.3.0 /home/thalyson/.npm/86c2e8f3-gulp-minify-css-0-3-0.lock
+36 verbose cache add [ 'gulp-coffee@1.4.1', null ]
+37 verbose cache add name=undefined spec="gulp-coffee@1.4.1" args=["gulp-coffee@1.4.1",null]
+38 verbose parsed url { protocol: null,
+38 verbose parsed url   slashes: null,
+38 verbose parsed url   auth: null,
+38 verbose parsed url   host: null,
+38 verbose parsed url   port: null,
+38 verbose parsed url   hostname: null,
+38 verbose parsed url   hash: null,
+38 verbose parsed url   search: null,
+38 verbose parsed url   query: null,
+38 verbose parsed url   pathname: 'gulp-coffee@1.4.1',
+38 verbose parsed url   path: 'gulp-coffee@1.4.1',
+38 verbose parsed url   href: 'gulp-coffee@1.4.1' }
+39 verbose cache add name="gulp-coffee" spec="1.4.1" args=["gulp-coffee","1.4.1"]
+40 verbose parsed url { protocol: null,
+40 verbose parsed url   slashes: null,
+40 verbose parsed url   auth: null,
+40 verbose parsed url   host: null,
+40 verbose parsed url   port: null,
+40 verbose parsed url   hostname: null,
+40 verbose parsed url   hash: null,
+40 verbose parsed url   search: null,
+40 verbose parsed url   query: null,
+40 verbose parsed url   pathname: '1.4.1',
+40 verbose parsed url   path: '1.4.1',
+40 verbose parsed url   href: '1.4.1' }
+41 verbose addNamed [ 'gulp-coffee', '1.4.1' ]
+42 verbose addNamed [ '1.4.1', '1.4.1' ]
+43 silly lockFile 9883c2e4-gulp-coffee-1-4-1 gulp-coffee@1.4.1
+44 verbose lock gulp-coffee@1.4.1 /home/thalyson/.npm/9883c2e4-gulp-coffee-1-4-1.lock
+45 verbose cache add [ 'gulp-plumber@0.6.1', null ]
+46 verbose cache add name=undefined spec="gulp-plumber@0.6.1" args=["gulp-plumber@0.6.1",null]
+47 verbose parsed url { protocol: null,
+47 verbose parsed url   slashes: null,
+47 verbose parsed url   auth: null,
+47 verbose parsed url   host: null,
+47 verbose parsed url   port: null,
+47 verbose parsed url   hostname: null,
+47 verbose parsed url   hash: null,
+47 verbose parsed url   search: null,
+47 verbose parsed url   query: null,
+47 verbose parsed url   pathname: 'gulp-plumber@0.6.1',
+47 verbose parsed url   path: 'gulp-plumber@0.6.1',
+47 verbose parsed url   href: 'gulp-plumber@0.6.1' }
+48 verbose cache add name="gulp-plumber" spec="0.6.1" args=["gulp-plumber","0.6.1"]
+49 verbose parsed url { protocol: null,
+49 verbose parsed url   slashes: null,
+49 verbose parsed url   auth: null,
+49 verbose parsed url   host: null,
+49 verbose parsed url   port: null,
+49 verbose parsed url   hostname: null,
+49 verbose parsed url   hash: null,
+49 verbose parsed url   search: null,
+49 verbose parsed url   query: null,
+49 verbose parsed url   pathname: '0.6.1',
+49 verbose parsed url   path: '0.6.1',
+49 verbose parsed url   href: '0.6.1' }
+50 verbose addNamed [ 'gulp-plumber', '0.6.1' ]
+51 verbose addNamed [ '0.6.1', '0.6.1' ]
+52 silly lockFile 4b346a8f-gulp-plumber-0-6-1 gulp-plumber@0.6.1
+53 verbose lock gulp-plumber@0.6.1 /home/thalyson/.npm/4b346a8f-gulp-plumber-0-6-1.lock
+54 verbose cache add [ 'gulp-imagemin@0.1.5', null ]
+55 verbose cache add name=undefined spec="gulp-imagemin@0.1.5" args=["gulp-imagemin@0.1.5",null]
+56 verbose parsed url { protocol: null,
+56 verbose parsed url   slashes: null,
+56 verbose parsed url   auth: null,
+56 verbose parsed url   host: null,
+56 verbose parsed url   port: null,
+56 verbose parsed url   hostname: null,
+56 verbose parsed url   hash: null,
+56 verbose parsed url   search: null,
+56 verbose parsed url   query: null,
+56 verbose parsed url   pathname: 'gulp-imagemin@0.1.5',
+56 verbose parsed url   path: 'gulp-imagemin@0.1.5',
+56 verbose parsed url   href: 'gulp-imagemin@0.1.5' }
+57 verbose cache add name="gulp-imagemin" spec="0.1.5" args=["gulp-imagemin","0.1.5"]
+58 verbose parsed url { protocol: null,
+58 verbose parsed url   slashes: null,
+58 verbose parsed url   auth: null,
+58 verbose parsed url   host: null,
+58 verbose parsed url   port: null,
+58 verbose parsed url   hostname: null,
+58 verbose parsed url   hash: null,
+58 verbose parsed url   search: null,
+58 verbose parsed url   query: null,
+58 verbose parsed url   pathname: '0.1.5',
+58 verbose parsed url   path: '0.1.5',
+58 verbose parsed url   href: '0.1.5' }
+59 verbose addNamed [ 'gulp-imagemin', '0.1.5' ]
+60 verbose addNamed [ '0.1.5', '0.1.5' ]
+61 silly lockFile 0df01461-gulp-imagemin-0-1-5 gulp-imagemin@0.1.5
+62 verbose lock gulp-imagemin@0.1.5 /home/thalyson/.npm/0df01461-gulp-imagemin-0-1-5.lock
+63 verbose cache add [ 'gulp-sass@0.7.1', null ]
+64 verbose cache add name=undefined spec="gulp-sass@0.7.1" args=["gulp-sass@0.7.1",null]
+65 verbose parsed url { protocol: null,
+65 verbose parsed url   slashes: null,
+65 verbose parsed url   auth: null,
+65 verbose parsed url   host: null,
+65 verbose parsed url   port: null,
+65 verbose parsed url   hostname: null,
+65 verbose parsed url   hash: null,
+65 verbose parsed url   search: null,
+65 verbose parsed url   query: null,
+65 verbose parsed url   pathname: 'gulp-sass@0.7.1',
+65 verbose parsed url   path: 'gulp-sass@0.7.1',
+65 verbose parsed url   href: 'gulp-sass@0.7.1' }
+66 verbose cache add name="gulp-sass" spec="0.7.1" args=["gulp-sass","0.7.1"]
+67 verbose parsed url { protocol: null,
+67 verbose parsed url   slashes: null,
+67 verbose parsed url   auth: null,
+67 verbose parsed url   host: null,
+67 verbose parsed url   port: null,
+67 verbose parsed url   hostname: null,
+67 verbose parsed url   hash: null,
+67 verbose parsed url   search: null,
+67 verbose parsed url   query: null,
+67 verbose parsed url   pathname: '0.7.1',
+67 verbose parsed url   path: '0.7.1',
+67 verbose parsed url   href: '0.7.1' }
+68 verbose addNamed [ 'gulp-sass', '0.7.1' ]
+69 verbose addNamed [ '0.7.1', '0.7.1' ]
+70 silly lockFile 524c1334-gulp-sass-0-7-1 gulp-sass@0.7.1
+71 verbose lock gulp-sass@0.7.1 /home/thalyson/.npm/524c1334-gulp-sass-0-7-1.lock
+72 verbose cache add [ 'gulp-serve@0.2.0', null ]
+73 verbose cache add name=undefined spec="gulp-serve@0.2.0" args=["gulp-serve@0.2.0",null]
+74 verbose parsed url { protocol: null,
+74 verbose parsed url   slashes: null,
+74 verbose parsed url   auth: null,
+74 verbose parsed url   host: null,
+74 verbose parsed url   port: null,
+74 verbose parsed url   hostname: null,
+74 verbose parsed url   hash: null,
+74 verbose parsed url   search: null,
+74 verbose parsed url   query: null,
+74 verbose parsed url   pathname: 'gulp-serve@0.2.0',
+74 verbose parsed url   path: 'gulp-serve@0.2.0',
+74 verbose parsed url   href: 'gulp-serve@0.2.0' }
+75 verbose cache add name="gulp-serve" spec="0.2.0" args=["gulp-serve","0.2.0"]
+76 verbose parsed url { protocol: null,
+76 verbose parsed url   slashes: null,
+76 verbose parsed url   auth: null,
+76 verbose parsed url   host: null,
+76 verbose parsed url   port: null,
+76 verbose parsed url   hostname: null,
+76 verbose parsed url   hash: null,
+76 verbose parsed url   search: null,
+76 verbose parsed url   query: null,
+76 verbose parsed url   pathname: '0.2.0',
+76 verbose parsed url   path: '0.2.0',
+76 verbose parsed url   href: '0.2.0' }
+77 verbose addNamed [ 'gulp-serve', '0.2.0' ]
+78 verbose addNamed [ '0.2.0', '0.2.0' ]
+79 silly lockFile fdc0f0cb-gulp-serve-0-2-0 gulp-serve@0.2.0
+80 verbose lock gulp-serve@0.2.0 /home/thalyson/.npm/fdc0f0cb-gulp-serve-0-2-0.lock
+81 verbose cache add [ 'gulp-util@^2.2.14', null ]
+82 verbose cache add name=undefined spec="gulp-util@^2.2.14" args=["gulp-util@^2.2.14",null]
+83 verbose parsed url { protocol: null,
+83 verbose parsed url   slashes: null,
+83 verbose parsed url   auth: null,
+83 verbose parsed url   host: null,
+83 verbose parsed url   port: null,
+83 verbose parsed url   hostname: null,
+83 verbose parsed url   hash: null,
+83 verbose parsed url   search: null,
+83 verbose parsed url   query: null,
+83 verbose parsed url   pathname: 'gulp-util@^2.2.14',
+83 verbose parsed url   path: 'gulp-util@^2.2.14',
+83 verbose parsed url   href: 'gulp-util@^2.2.14' }
+84 verbose cache add name="gulp-util" spec="^2.2.14" args=["gulp-util","^2.2.14"]
+85 verbose parsed url { protocol: null,
+85 verbose parsed url   slashes: null,
+85 verbose parsed url   auth: null,
+85 verbose parsed url   host: null,
+85 verbose parsed url   port: null,
+85 verbose parsed url   hostname: null,
+85 verbose parsed url   hash: null,
+85 verbose parsed url   search: null,
+85 verbose parsed url   query: null,
+85 verbose parsed url   pathname: '^2.2.14',
+85 verbose parsed url   path: '^2.2.14',
+85 verbose parsed url   href: '^2.2.14' }
+86 verbose addNamed [ 'gulp-util', '^2.2.14' ]
+87 verbose addNamed [ null, '>=2.2.14-0 <3.0.0-0' ]
+88 silly lockFile e3e5f16b-gulp-util-2-2-14 gulp-util@^2.2.14
+89 verbose lock gulp-util@^2.2.14 /home/thalyson/.npm/e3e5f16b-gulp-util-2-2-14.lock
+90 verbose cache add [ 'gulp-watch@0.5.4', null ]
+91 verbose cache add name=undefined spec="gulp-watch@0.5.4" args=["gulp-watch@0.5.4",null]
+92 verbose parsed url { protocol: null,
+92 verbose parsed url   slashes: null,
+92 verbose parsed url   auth: null,
+92 verbose parsed url   host: null,
+92 verbose parsed url   port: null,
+92 verbose parsed url   hostname: null,
+92 verbose parsed url   hash: null,
+92 verbose parsed url   search: null,
+92 verbose parsed url   query: null,
+92 verbose parsed url   pathname: 'gulp-watch@0.5.4',
+92 verbose parsed url   path: 'gulp-watch@0.5.4',
+92 verbose parsed url   href: 'gulp-watch@0.5.4' }
+93 verbose cache add name="gulp-watch" spec="0.5.4" args=["gulp-watch","0.5.4"]
+94 verbose parsed url { protocol: null,
+94 verbose parsed url   slashes: null,
+94 verbose parsed url   auth: null,
+94 verbose parsed url   host: null,
+94 verbose parsed url   port: null,
+94 verbose parsed url   hostname: null,
+94 verbose parsed url   hash: null,
+94 verbose parsed url   search: null,
+94 verbose parsed url   query: null,
+94 verbose parsed url   pathname: '0.5.4',
+94 verbose parsed url   path: '0.5.4',
+94 verbose parsed url   href: '0.5.4' }
+95 verbose addNamed [ 'gulp-watch', '0.5.4' ]
+96 verbose addNamed [ '0.5.4', '0.5.4' ]
+97 silly lockFile c2c0f2a1-gulp-watch-0-5-4 gulp-watch@0.5.4
+98 verbose lock gulp-watch@0.5.4 /home/thalyson/.npm/c2c0f2a1-gulp-watch-0-5-4.lock
+99 silly addNameRange { name: 'gulp-util',
+99 silly addNameRange   range: '>=2.2.14-0 <3.0.0-0',
+99 silly addNameRange   hasData: false }
+100 verbose url raw gulp
+101 verbose url resolving [ 'https://registry.npmjs.org/', './gulp' ]
+102 verbose url resolved https://registry.npmjs.org/gulp
+103 info trying registry request attempt 1 at 21:20:35
+104 verbose etag "2HDEGPII1TOF8WDSL9K54ZYV3"
+105 http GET https://registry.npmjs.org/gulp
+106 verbose url raw gulp-changed
+107 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-changed' ]
+108 verbose url resolved https://registry.npmjs.org/gulp-changed
+109 info trying registry request attempt 1 at 21:20:35
+110 verbose etag "C81YV11TYPJJ7PZKJY4ZH8801"
+111 http GET https://registry.npmjs.org/gulp-changed
+112 verbose url raw gulp-minify-css
+113 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-minify-css' ]
+114 verbose url resolved https://registry.npmjs.org/gulp-minify-css
+115 info trying registry request attempt 1 at 21:20:35
+116 verbose etag "7DP788QVEKECSLY5O2QOZSCDG"
+117 http GET https://registry.npmjs.org/gulp-minify-css
+118 verbose url raw gulp-coffee
+119 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-coffee' ]
+120 verbose url resolved https://registry.npmjs.org/gulp-coffee
+121 info trying registry request attempt 1 at 21:20:35
+122 verbose etag "CJ1BYKBATTPHJXDX1XOLBGME5"
+123 http GET https://registry.npmjs.org/gulp-coffee
+124 verbose url raw gulp-plumber
+125 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-plumber' ]
+126 verbose url resolved https://registry.npmjs.org/gulp-plumber
+127 info trying registry request attempt 1 at 21:20:35
+128 verbose etag "EK6WF650904ZLXCPJXQ4Y6VEF"
+129 http GET https://registry.npmjs.org/gulp-plumber
+130 verbose url raw gulp-imagemin
+131 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-imagemin' ]
+132 verbose url resolved https://registry.npmjs.org/gulp-imagemin
+133 info trying registry request attempt 1 at 21:20:35
+134 verbose etag "5SEQ8M6XU6R6T9P7AKE5LNJJP"
+135 http GET https://registry.npmjs.org/gulp-imagemin
+136 verbose url raw gulp-sass
+137 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-sass' ]
+138 verbose url resolved https://registry.npmjs.org/gulp-sass
+139 info trying registry request attempt 1 at 21:20:35
+140 verbose etag "6Y7OJCRSOSCH8NOK4TTH0O6XD"
+141 http GET https://registry.npmjs.org/gulp-sass
+142 verbose url raw gulp-serve
+143 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-serve' ]
+144 verbose url resolved https://registry.npmjs.org/gulp-serve
+145 info trying registry request attempt 1 at 21:20:35
+146 verbose etag "89ERTJI1L7MFO7GE9K2M9IXN9"
+147 http GET https://registry.npmjs.org/gulp-serve
+148 verbose url raw gulp-util
+149 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-util' ]
+150 verbose url resolved https://registry.npmjs.org/gulp-util
+151 info trying registry request attempt 1 at 21:20:35
+152 verbose etag "2VQWADKHKS0O0NFM3XYPHEU41"
+153 http GET https://registry.npmjs.org/gulp-util
+154 verbose url raw gulp-watch
+155 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-watch' ]
+156 verbose url resolved https://registry.npmjs.org/gulp-watch
+157 info trying registry request attempt 1 at 21:20:35
+158 verbose etag "6JEYHUCNDX2EO0UN8EJETKH46"
+159 http GET https://registry.npmjs.org/gulp-watch
+160 http 304 https://registry.npmjs.org/gulp
+161 silly registry.get cb [ 304,
+161 silly registry.get   { date: 'Wed, 14 May 2014 00:20:37 GMT',
+161 silly registry.get     server: 'Apache',
+161 silly registry.get     via: '1.1 varnish',
+161 silly registry.get     'last-modified': 'Wed, 14 May 2014 00:20:37 GMT',
+161 silly registry.get     'cache-control': 'max-age=1',
+161 silly registry.get     etag: '"2HDEGPII1TOF8WDSL9K54ZYV3"',
+161 silly registry.get     'x-served-by': 'cache-jfk1025-JFK',
+161 silly registry.get     'x-cache': 'HIT',
+161 silly registry.get     'x-cache-hits': '1',
+161 silly registry.get     'x-timer': 'S1400026837.046755314,VS0,VE95',
+161 silly registry.get     vary: 'Accept',
+161 silly registry.get     'content-length': '0',
+161 silly registry.get     'keep-alive': 'timeout=10, max=50',
+161 silly registry.get     connection: 'Keep-Alive' } ]
+162 verbose etag gulp from cache
+163 silly lockFile 30ee6f71-ry-npmjs-org-gulp-gulp-3-5-6-tgz https://registry.npmjs.org/gulp/-/gulp-3.5.6.tgz
+164 verbose lock https://registry.npmjs.org/gulp/-/gulp-3.5.6.tgz /home/thalyson/.npm/30ee6f71-ry-npmjs-org-gulp-gulp-3-5-6-tgz.lock
+165 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp/-/gulp-3.5.6.tgz',
+165 verbose addRemoteTarball   'bbb9acb596c8dbf1783cc5f182ebc0f82a82489e' ]
+166 silly lockFile 30ee6f71-ry-npmjs-org-gulp-gulp-3-5-6-tgz https://registry.npmjs.org/gulp/-/gulp-3.5.6.tgz
+167 silly lockFile 30ee6f71-ry-npmjs-org-gulp-gulp-3-5-6-tgz https://registry.npmjs.org/gulp/-/gulp-3.5.6.tgz
+168 silly lockFile cb982ef7-gulp-3-5-6 gulp@3.5.6
+169 silly lockFile cb982ef7-gulp-3-5-6 gulp@3.5.6
+170 error Error: EACCES, mkdir '/home/thalyson/tmp/npm-28543-JqFleV-n'
+170 error  { [Error: EACCES, mkdir '/home/thalyson/tmp/npm-28543-JqFleV-n']
+170 error   errno: 3,
+170 error   code: 'EACCES',
+170 error   path: '/home/thalyson/tmp/npm-28543-JqFleV-n',
+170 error   parent: 'istim-layout' }
+171 error Please try running this command again as root/Administrator.
+172 error System Linux 3.8.4
+173 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+174 error cwd /home/thalyson/git/layout/application
+175 error node -v v0.10.28
+176 error npm -v 1.4.9
+177 error path /home/thalyson/tmp/npm-28543-JqFleV-n
+178 error code EACCES
+179 error errno 3
+180 error stack Error: EACCES, mkdir '/home/thalyson/tmp/npm-28543-JqFleV-n'
+181 verbose exit [ 3, true ]

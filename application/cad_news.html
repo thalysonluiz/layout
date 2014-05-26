@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Cadastrar Notícias</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="stylesheet" href="styles/start.css">
+	<link rel="stylesheet" href="styles/chat.css">
+	<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+<partial data-template="navbar_authenticated"></partial>
+    <partial data-template="chat"></partial>
+    <partial data-template="friend_list"></partial>
+
+	<div class="container-fluid">
+		<div class="row">
+
+			<div class="col-md-3">
+				<partial data-template="sidebar"></partial>
+			</div>
+
+			<div class="col-xs-9">
+				<div class="panel">
+					<form class="form-horizontal">
+						<fieldset>
+							<legend>News</legend>
+							<div class="form-group">
+								<label for="inputEmail" class="col-lg-2 control-label">Titulo</label>
+								<div class="col-lg-10">
+									<input type="text" class="form-control" id="inputEmail" placeholder="Titulo">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="textArea" class="col-lg-2 control-label">Textarea</label>
+								<div class="col-lg-10">
+									<textarea class="form-control" rows="3" id="textArea"></textarea>
+									<span class="help-block">Cadastre a notícia de interesse geral</span>
+								</div>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+
+		</div><!-- .row -->
+
+	</div><!-- .container-fluid -->
+
+
+	<div id="box" class="chat-box">
+		<input type="checkbox" />
+		<label data-expanded="Close Chatbox" data-collapsed="Open Chatbox"></label>
+		<div class="chat-box-content">
+
+			<div id="chatScreen" class="well well-lg chat-screen" >
+
+			</div>
+
+			<div class="form-group">
+				<label class="control-label">Input addons</label>
+				<div class="input-group" style="width: 100%;">
+					<input onkeydown="buttonEnterPressed()" id="textarea" type="text" class="form-control">
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+	<script>
+	var x = "#box";
+	$(x).hide();
+
+	$("#a1").click(function(){
+		$("#box").show();
+	});
+
+	function message()
+	{
+		document.getElementById("chatScreen").innerHTML += "<br>" +  document.getElementById("textarea").value;
+		document.getElementById("textarea").value = "";
+		document.getElementById("chatScreen").scrollTop = document.getElementById("chatScreen").scrollHeight;
+	}
+
+	function buttonEnterPressed(){
+		if (event.keyCode == 13) {
+			this.message();
+			return false;
+		}else if(event.keyCode == 27){
+			$(x).hide();
+		}
+	}
+	</script>
+
+	<!-- End Sign Up Modal -->
+
+	<!-- dev tools -->
+	<script src="bower_components/intuos.js/intuos.js"></script>
+
+	<!-- scripts -->
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/affix.js"></script>
+	<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/alert.js"></script>
+	<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/dropdown.js"></script>
+	<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tooltip.js"></script>
+	<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/modal.js"></script>
+	<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/transition.js"></script>
+	<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/button.js"></script>
+	<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/popover.js"></script>
+	<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/carousel.js"></script>
+	<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/scrollspy.js"></script>
+	<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/collapse.js"></script>
+	<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tab.js"></script>
+	<script src="scripts/start.js"></script>
+	<script src="scripts/main.js"></script>
+    <script src="scripts/chat.js"></script>
+
+</body>
+
+</html>

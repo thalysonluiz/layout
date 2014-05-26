@@ -1,0 +1,35 @@
+{
+  "name": "intuos.js",
+  "version": "0.2.3",
+  "authors": [
+    "Lucas Ferreira <lucasfercunha@gmail.com>"
+  ],
+  "description": "Renders HTML partials on the client side",
+  "main": "intuos.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "render",
+    "partials",
+    "html"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/lucasfercunha/intuos",
+  "_release": "0.2.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.3",
+    "commit": "ef484933b32078ed104a9efad583e7f3ba47c310"
+  },
+  "_source": "git://github.com/lucasfercunha/intuos.git",
+  "_target": "0.2.*",
+  "_originalSource": "intuos.js"
+}

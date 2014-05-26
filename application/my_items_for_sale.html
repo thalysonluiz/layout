@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Meus Itens a Venda</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="stylesheet" href="styles/start.css">
+        <link rel="stylesheet" href="styles/chat.css">
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+        <partial data-template="navbar_authenticated"></partial>
+        <partial data-template="chat"></partial>
+        <partial data-template="friend_list"></partial>
+
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-md-3">
+                    <partial data-template="sidebar"></partial>
+                </div>
+
+                <div class="col-xs-8">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <div class="search-field">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Buscar Item">
+                                    <span class="input-group-addon"><span class="fa icon fa-search"></span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-9">
+                    <div class="row">
+                        <div class="col-xs-12">
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Itens a venda</h3>
+                                </div>
+                                <table id="selling-items-table" class="table">
+                                    <tr>
+                                        <td><b>ID</b></td>
+                                        <td><b>Imagem</b></td>
+                                        <td><b>Nome do Item</b></td>
+                                        <td><b>Vendedor</b></td>
+                                        <td><b>Quantidade</b></td>
+                                        <td><b>Preço</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td><img src="images/items/1.png" data-name="Boomerang" data-description="Consequatur, optio, delectus? Maiores in eligendi error quidem expedita quod inventore. Repellendus." data-value="0.00" alt=""></td>
+                                        <td>Boomerang</td>
+                                        <td>Você</td>
+                                        <td><input type="number" class="form-control input-sm edit-input" value="2"></td>
+                                        <td><input type="number" class="form-control input-sm edit-input" value="1000"></td>
+                                        <td><button class="btn col-md-10 btn-danger text-center btn-sm"><i class="fa fa-fw fa-times"></i>Cancelar</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td><img src="images/items/2.png" data-name="Bottle" data-description="rem non eligendi ratione eum distinctio itaque ducimus veritatis beatae saepe laborum." data-value="0.00" alt=""></td>
+                                        <td>Bottle</td>
+                                        <td>Você</td>
+                                        <td><input type="number" class="form-control input-sm edit-input" value="1"></td>
+                                        <td><input type="number" class="form-control input-sm edit-input" value="100"></td>
+                                        <td><button class="btn col-md-10 btn-danger text-center btn-sm"><i class="fa fa-fw fa-times"></i>Cancelar</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td><img src="images/items/3.png" data-name="Red Cape" data-description="veniam. Hic, blanditiis labore dignissimos ex sint perspiciatis atque placeat in maxime." data-value="0.00" alt=""></td>
+                                        <td>Red Cape</td>
+                                        <td>Você</td>
+                                        <td><input type="number" class="form-control input-sm edit-input" value="10"></td>
+                                        <td><input type="number" class="form-control input-sm edit-input" value="10000"></td>
+                                        <td><button class="btn col-md-10 btn-danger text-center btn-sm"><i class="fa fa-fw fa-times"></i>Cancelar</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td><img src="images/items/4.png" data-name="Hammer" data-description="quis quo eum itaque maxime cumque nisi culpa et tempore aut praesentium laborum?" data-value="0.00" alt=""></td>
+                                        <td>Hammer</td>
+                                        <td>Você</td>
+                                        <td><input type="number" class="form-control input-sm edit-input" value="1"></td>
+                                        <td><input type="number" class="form-control input-sm edit-input" value="30000"></td>
+                                        <td><button class="btn col-md-10 btn-danger text-center btn-sm"><i class="fa fa-fw fa-times"></i>Cancelar</button></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- dev tools -->
+                <script src="bower_components/intuos.js/intuos.js"></script>
+
+                <!-- scripts -->
+                <script src="bower_components/jquery/dist/jquery.min.js"></script>
+                <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/affix.js"></script>
+                <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/alert.js"></script>
+                <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/dropdown.js"></script>
+                <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tooltip.js"></script>
+                <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/modal.js"></script>
+                <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/transition.js"></script>
+                <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/button.js"></script>
+                <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/popover.js"></script>
+                <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/carousel.js"></script>
+                <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/scrollspy.js"></script>
+                <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/collapse.js"></script>
+                <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tab.js"></script>
+                <script src="scripts/start.js"></script>
+                <script src="scripts/main.js"></script>
+                <script src="scripts/chat.js"></script>
+            </body>
+        </html>

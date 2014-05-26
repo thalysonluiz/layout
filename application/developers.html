@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Desenvolvedores</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="styles/start.css">
+    <link rel="stylesheet" href="styles/chat.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <partial data-template="navbar_authenticated"></partial>
+    <partial data-template="chat"></partial>
+    <partial data-template="friend_list"></partial>
+
+    <div class="list-group col-xs-8 col-xs-offset-2">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h2>
+                    Take a look at what Istim can offer developers
+                    <span class="developers">
+                        <button type="button" class="btn btn-success">Submit Game</button>
+                        <button type="button" class="btn btn-default">Ask us anything</button>
+                    </span>
+                </h2>
+            </div>
+        </div>
+
+        <div class="col-xs-8">
+            <ul class="nav nav-tabs" style="margin-bottom: 15px;">
+                <li class="active"><a href="#submissions" data-toggle="tab">Submissão Recente</a></li>
+                <li class=""><a href="#discussions" data-toggle="tab">Discussões </a></li>
+            </ul>
+            <div id="myTabContent" class="tab-content">
+                <div class="tab-pane fade active in" id="submissions">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="http://placehold.it/180x180">
+                        </div>
+
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="http://placehold.it/180x180">
+                        </div>
+
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="http://placehold.it/180x180">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="discussions">
+                    <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="list-group col-xs-4 panel-developers">
+            <div class="search-field">
+                <div class="input-group">
+                    <span class="input-group-addon"><span class="fa icon fa-search"></span></span><input type="text" class="form-control" placeholder="Pesquisar">
+                </div>
+            </div>
+            <a href="#" class="list-group-item active">
+                Browse by
+            </a>
+            <ul class="nav">
+                <li><a href="profile.html"><span class="fa icon fa-thumbs-o-up"></span>Aprovado (428)</a></li>
+                <li><a href="#"><span class="fa icon fa-shopping-cart"></span>Lançamentos (126)</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- dev tools -->
+    <script src="bower_components/intuos.js/intuos.js"></script>
+
+    <!-- scripts -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/button.js"></script>
+    <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tab.js"></script>
+    <script src="scripts/start.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/chat.js"></script>
+</body>
+</html>

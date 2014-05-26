@@ -1,0 +1,25 @@
+{
+  "name": "intuos.js",
+  "version": "0.2.3",
+  "authors": [
+    "Lucas Ferreira <lucasfercunha@gmail.com>"
+  ],
+  "description": "Renders HTML partials on the client side",
+  "main": "intuos.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "render",
+    "partials",
+    "html"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

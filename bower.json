@@ -1,0 +1,15 @@
+{
+	"name": "istim-layout",
+	"version": "1.0.0",
+	"dependencies": {
+		"bootswatch-scss": "3.*",
+		"font-awesome": "4.0.*",
+		"modernizr": "2.7.*",
+		"jquery": "1.11.*",
+		"chartjs_lucasfercunha": "1.0.0",
+		"owlcarousel": "*"
+	},
+	"devDependencies": {
+		"intuos.js": "0.2.*"
+	}
+}

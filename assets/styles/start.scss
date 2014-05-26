@@ -1,0 +1,13 @@
+// font paths
+$icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/" !default;
+$fa-font-path: "../bower_components/font-awesome/fonts/" !default;
+
+/*
+ * Import libraries
+ * Read the bootwatch readme file to learn how to import a theme
+ */
+@import "application/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/variables";
+@import "application/bower_components/bootswatch-scss/slate/variables";
+@import "application/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/bootstrap";
+@import "application/bower_components/bootswatch-scss/slate/bootswatch";
+@import "application/bower_components/font-awesome/scss/font-awesome";

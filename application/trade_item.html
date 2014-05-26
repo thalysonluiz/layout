@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Troca de Itens</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="stylesheet" href="styles/start.css">
+	<link rel="stylesheet" href="styles/chat.css">
+	<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+	<partial data-template="navbar_authenticated"></partial>
+	<partial data-template="chat"></partial>
+    <partial data-template="friend_list"></partial>
+	<div class="col-xs-3">
+		<partial data-template="sidebar"></partial>
+	</div>
+
+	<div class="col-xs-8">
+		<div class="row">
+			<div class="col-xs-6">
+				<div class="search-field">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Buscar Item">
+						<span class="input-group-addon"><span class="fa icon fa-search"></span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-xs-9">
+		<div class="row">
+			<div class="col-xs-12">
+
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Itens a troca</h3>
+					</div>
+					<table id="items-trade" class="table">
+						<tr>
+							<td><b>ID</b></td>
+							<td><b>Imagem</b></td>
+							<td><b>Nome do Item</b></td>
+							<td><b>Dono</b></td>
+							<td><b>Quantidade</b></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td><img src="images/items/1.png" alt=""></td>
+							<td>Boomerang</td>
+							<td>Mario da burrinha</td>
+							<td>2</td>
+							<td><input type="submit" class="btn col-md-10 btn-info text-center btn-sm" data-toggle="modal" data-target="#items-modal" value="Ofertar Item"></td>
+							<td><input type="submit" class="btn col-md-10 alert-warning text-center btn-sm" value="Trocar"></td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td><img src="images/items/2.png" alt=""></td>
+							<td>Bottle</td>
+							<td>Mario da burrinha</td>
+							<td>1</td>
+							<td><input type="submit" class="btn col-md-10 btn-info text-center btn-sm" data-toggle="modal" data-target="#items-modal" value="Ofertar Item"></td>
+							<td><input type="submit" class="btn col-md-10 alert-warning text-center btn-sm" value="Trocar"></td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td><img src="images/items/3.png" alt=""></td>
+							<td>Red Cape</td>
+							<td>Victor Henrique</td>
+							<td>10</td>
+							<td><img src="images/items/2.png" alt="">(3)</td>
+							<td><input type="submit" class="btn col-md-10 alert-warning text-center btn-sm" value="Trocar"></td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td><img src="images/items/4.png" alt=""></td>
+							<td>Hammer</td>
+							<td>Macgyver</td>
+							<td>1</td>
+							<td><input type="submit" class="btn col-md-10 btn-info text-center btn-sm" data-toggle="modal" data-target="#items-modal" value="Ofertar Item"></td>
+							<td><input type="submit" class="btn col-md-10 alert-warning text-center btn-sm" value="Trocar"></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade bs-example-modal-lg" id="items-modal" tabindex="-1" role="dialog" aria-labelledby="itemsModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<center>
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h1 class="modal-title" id="itemsModalLabel">Ofertar Item</h1>
+					</div>
+				</center>
+				<div class="modal-body">
+					<div class="table-bordered">
+						<table id="select-items-table" class="table">
+							<tr>
+								<td class="text-center">
+									<div class="item-tip">
+										<img src="images/items/1.png" alt="">(10)
+									</div>
+								</td>
+								<td class="text-center item forsale fortrade">
+									<div class="item-tip">
+										<img src="images/items/2.png" alt="">(3)
+									</div>
+								</td>
+								<td class="text-center item forsale">
+									<div class="item-tip">
+										<img src="images/items/3.png" alt="">(2)
+									</div>
+								</td>
+								<td class="text-center item forsale fortrade">
+									<div class="item-tip">
+										<img src="images/items/4.png" alt="">(6)
+									</div>
+								</td>
+								<td class="text-center item">
+									<div class="item-tip">
+										<img src="images/items/5.png" alt="">(1)
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="text-center item">
+									<div class="item-tip">
+										<img src="images/items/6.png" alt="">(2)
+									</div>
+								</td>
+								<td class="text-center item">
+									<div class="item-tip">
+										<img src="images/items/7.png" alt="">(3)
+									</div>
+								</td>
+								<td class="text-center item">
+									<div class="item-tip">
+										<img src="images/items/8.png" alt="">(100)
+									</div>
+								</td>
+								<td class="text-center item">
+									<div class="item-tip">
+										<img src="images/items/9.png" alt="">(12)
+									</div>
+								</td>
+								<td class="text-center item">
+									<div class="item-tip">
+										<img src="images/items/10.png" alt="">(1)
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="text-center item">
+									<div class="item-tip">
+										<img src="images/items/11.png" alt="">(2)
+									</div>
+								</td>
+								<td class="text-center item">
+									<div class="item-tip">
+										<img src="images/items/12.png" alt="">(3)
+									</div>
+								</td>
+								<td class="text-center item">
+									<div class="item-tip">
+										<img src="images/items/13.png" alt="">(5)
+									</div>
+								</td>
+								<td class="text-center item">
+									<div class="item-tip">
+										<img src="images/items/14.png" alt="">(1)
+									</div>
+								</td>
+								<td class="text-center item">
+									<div class="item-tip">
+										<img src="images/items/15.png" alt="">(90)
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="text-center item">
+									<div class="item-tip">
+										<img src="images/items/16.png" alt="">(5)
+									</div>
+								</td>
+								<td class="text-center item">
+									<div class="item-tip">
+										<img src="images/items/17.png" alt="">(4)
+									</div>
+								</td>
+								<td class="text-center item">
+									<div class="item-tip">
+										<img src="images/items/18.png" alt="">(1)
+									</div>
+								</td>
+								<td class="text-center item">
+									<div class="item-tip">
+										<img src="images/items/19.png" alt="">(3)
+									</div>
+								</td>
+								<td class="text-center item">
+									<div class="item-tip">
+										<img src="images/items/20.png" alt="">(1)
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="text-center item">
+									<div class="item-tip">
+										<img src="images/items/21.png" alt="">(7)
+									</div>
+								</td>
+								<td class="text-center item">
+									<div class="item-tip">
+										<img src="images/items/22.png" alt="">(6)
+									</div>
+								</td>
+								<td class="text-center item">
+									<div class="item-tip">
+										<img src="images/items/23.png" alt="">(1)
+									</div>
+								</td>
+								<td class="text-center item">
+									<div class="item-tip">
+										<img src="images/items/24.png" alt="">(2)
+									</div>
+								</td>
+								<td class="text-center item">
+									<div class="item-tip">
+										<img src="images/items/25.png" alt="">(4)
+									</div>
+								</td>
+							</tr>
+						</table><!-- table.table -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- dev tools -->
+	<script src="bower_components/intuos.js/intuos.js"></script>
+
+	<!-- scripts -->
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/affix.js"></script>
+	<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/alert.js"></script>
+	<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/dropdown.js"></script>
+	<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tooltip.js"></script>
+	<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/modal.js"></script>
+	<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/transition.js"></script>
+	<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/button.js"></script>
+	<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/popover.js"></script>
+	<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/carousel.js"></script>
+	<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/scrollspy.js"></script>
+	<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/collapse.js"></script>
+	<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tab.js"></script>
+	<script src="scripts/start.js"></script>
+	<script src="scripts/main.js"></script>
+    <script src="scripts/chat.js"></script>
+</body>
+
+</html>
