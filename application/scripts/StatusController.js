@@ -6,12 +6,12 @@ myApp.controller('UsersCtrl', ['$scope', '$http', function($scope, $http) {
     
     $scope.user.name = 'Thalyson';
     
-    $scope.coin_url = "http://istim-coin.nodejitsu.com/show?userId=1";
+    $scope.coin_url = "http://istim-coin.nodejitsu.com/show?userId=2";
  
  	$http.get($scope.coin_url)
  		.success(function(data) {
  			//$scope.game_list = data;
-            $scope.user.coin = '1234';
+            $scope.user.coin = 'data.cash';
  			//console.log(data);
  		})
  		.error(function(data) {
