@@ -1,17 +1,39 @@
-var myApp = angular.module('istim', []);
+var myApp = angular.module('istim', []);//'ngRoute'
+
+/*myApp.config(function($routeProvider) {
+		$routeProvider
+			// route for the contact page
+			.when('/', {
+				templateUrl : 'perfil.html',
+				controller  : 'UsersCtrl'
+			});
+	});*/
 
 myApp.controller('UsersCtrl', ['$scope', '$http', function($scope, $http) {
 
     $scope.user = {};
     
-    $scope.user.name = 'Thalyson';
+    $scope.user_url =  "http://istimuser.nodejitsu.com/user/533509979a4d2aa14799cc04";
     
-    $scope.coin_url = "http://istim-coin.nodejitsu.com/show?userId=2";
+    $http.get($scope.user_url)
+ 		.success(function(data) {
+ 			//$scope.game_list = data;
+            $scope.user.name = data.name;
+ 			//console.log(data);
+ 		})
+ 		.error(function(data) {
+            $scope.user.name = 'error';
+ 			//console.log('Error: ' + data);
+ 		});
+    
+    
+    
+    $scope.coin_url = "http://istimcoinvirtual.jit.su/coin/show?userId=533509979a4d2aa14799cc04"//+$routeParams.id;
  
  	$http.get($scope.coin_url)
  		.success(function(data) {
  			//$scope.game_list = data;
-            $scope.user.coin = 'data.cash';
+            $scope.user.coin = data.cash;
  			//console.log(data);
  		})
  		.error(function(data) {
@@ -43,3 +65,4 @@ myApp.controller('UsersCtrl', ['$scope', '$http', function($scope, $http) {
     }];
 
 }]);
+
